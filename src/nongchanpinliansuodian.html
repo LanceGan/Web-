@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>农产品连锁店</title>
 		<link href="./css/style.css" rel="stylesheet" type="text/css" />
+		<script src="./js/search.js" defer></script>
 	</head>
 	<body>
 	<div class="content-vip">
@@ -32,15 +33,16 @@
 	        </div>
 	        <div class="nav-right">
 	          <div class="search">
-	            <div class="search-left">
-	              <input name="" type="text" />
-	            </div>
-	            <div class="search-right"><a href="#"><img src="images/search-right.png" border="0" /></a></div>
-	          </div>
+	           <!-- <div class="search-left"><input name="" type="text" /></div>            
+	            <div class="search-right"><a href="#"><img src="images/search-right.png" border="0" /></a></div> -->
+				<div class="search-left"><input id="search-input" type="text" placeholder="搜索..." /></div>
+				<div class="search-right"><a href="#"><img src="images/search-right.png" border="0" /></a></div>
+			  </div>
 	        </div>
 	      </div>
 	    </div>
 	  </div>
+	  <div id="search-results"></div>	
 	  <div class="sub">
 	    <div class="sub-left">
 	      <div class="hot-left1"></div>
@@ -74,7 +76,7 @@
 	</table>
 	
 		  </div>
-	      <span>直营门店是公司农产品的主要销售渠道之一，是满足市民对新鲜安全、实惠便利的农产品需求，满足农民较好解决农产品销售的有力渠道。<br />公司力争2012年底，在上海地区开出100家农产品连锁门店。3年内开出500家，5年内开出1000家，并在苏州、无锡、常州、南京、嘉兴及杭州等地开出不少于100家连锁门店。门店面积为150~300平米，周边辐射2~3万目标人群，门店选址定位于社区，主要面向普通大众消费者，主营鲜活蔬果、特优肉禽、鲜活水产、谷物粮油等新鲜优质、绿色有机、原产地特色的农产品，辅以健康熟食、酒水饮料及餐饮、美发、足浴等各类便民服务。使社区居民充分感受一日三餐及生活服务的“安全实惠、方便快捷”。</span>
+	      <span>直营门店是公司农产品的主要销售渠道之一，是满足市民对新鲜安全、实惠便利的农产品需求，满足农民较好解决农产品销售的有力渠道.公司力争2012年底，在上海地区开出100家农产品连锁门店。3年内开出500家，5年内开出1000家，并在苏州、无锡、常州、南京、嘉兴及杭州等地开出不少于100家连锁门店。门店面积为150~300平米，周边辐射2~3万目标人群，门店选址定位于社区，主要面向普通大众消费者，主营鲜活蔬果、特优肉禽、鲜活水产、谷物粮油等新鲜优质、绿色有机、原产地特色的农产品，辅以健康熟食、酒水饮料及餐饮、美发、足浴等各类便民服务。使社区居民充分感受一日三餐及生活服务的“安全实惠、方便快捷”。</span>
 	      <p>运营特点</p>
 	      <em>
 		  1 时间优势  门店营业时间为5点~22点，区别于农贸市场和大卖场的有限运营时间<br />
@@ -92,20 +94,23 @@
 	  <div class="top3">
 	    <div class="vip-copyright">
 	      <div class="copyright-v">
-	        <ul>
-	          <li><a href="#">集团介绍</a></li>
-	          <li><a href="#">联系我们</a></li>
-	          <li><a href="#">加入禾盛</a></li>
-	          <li style="border-right:none;"><a href="#">网站地图</a></li>
-	        </ul>
+			   <ul>
+				 <li><a href="introduction.html">集团介绍</a></li>
+				 <li><a href="lianxiwomen-lianxifagnshi.html">联系我们</a></li>
+				 <li><a href="lianxiwomen-rencaizhaopin.html">加入禾盛</a></li>
+				 <li style="border-right:none;"><a href="https://ditu.amap.com/search?query=%E4%B8%9C%E5%8C%97%E5%A4%A7%E5%AD%A6%E7%A7%A6%E7%9A%87%E5%B2%9B%E5%88%86%E6%A0%A1&city=110000&geoobj=115.282629%7C39.32334%7C118.504164%7C40.551317&zoom=8.85" target="_blank">网站地图</a></li>
+			   </ul>
 	      </div>
 	      <div class="copyright2">
 	        <table width="100%" border="0" cellspacing="0" cellpadding="0">
 	          <tr>
-	            <td width="21%">2022-2023禾盛集团（中国）有限公司 <br /></td>
-	            <td width="13%">川ICP备12033068号-2</td>
-	            <td width="65%"><img src="images/cnzz.jpg" width="50" height="12" /></td>
+	           <td width="21%">2024-2025禾盛集团（中国）有限公司 <br /></td>
+	           <td width="13%">冀ICP备12033068号-2</td>
+	           <td width="66%"><img src="images/cnzz.jpg" width="50" height="12" /></td>
 	          </tr>
+			  <tr>
+			  		  <td width="21%"><a href="https://github.com/LanceGan/Web-.git">版权所有:NEUQ甘瑞杰   @copyright</a></td>
+			  </tr>
 	        </table>
 	      </div>
 	    </div>
