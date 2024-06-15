@@ -1,4 +1,4 @@
-body{
+/* body{
 	background-image: url(../../images/login.jpg);
 	background-size: 100% ;
 	background-repeat: no-repeat;
@@ -42,4 +42,63 @@ h1{
 	color: lightcoral;
 	font-family: "楷体";
 	font-size: 50px;
+}
+ */
+body {
+    background-image: url(../images/login.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login_box, #register_box {
+    background-color: #00000068;
+    text-align: center;
+    width: 400px;
+    padding: 30px;
+    border-radius: 7px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#login_box h1, #register_box h1 {
+    color: aqua;
+    font-family: "楷体";
+}
+
+.pre {
+    color: aqua;
+    font-family: "楷体";
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.go, .register, .login {
+    color: red;
+    border-radius: 16px;
+    height: 35px;
+    width: 70px;
+    background: lemonchiffon;
+    border: 3px solid aqua;
+    cursor: pointer;
+}
+
+.input_box input {
+    border: 3px solid aqua;
+    background: lemonchiffon;
+    height: 24px;
+    width: 200px;
+}
+
+marquee h1 {
+    color: lightcoral;
+    font-family: "楷体";
+    font-size: 50px;
 }
