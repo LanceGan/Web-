@@ -1,0 +1,45 @@
+body{
+	background-image: url(../images/login.jpg);
+	background-size: 100% ;
+	background-repeat: no-repeat;
+	
+}
+
+#login_box{
+	background-color: #00000068;
+	text-align: center;
+	margin:0 auto;
+	margin-top: 300px;
+	width: 400px;
+	height: 350px;
+	border-radius: 7px;
+}
+ #login_box h1{
+	color: aqua;
+	padding-top: 30px;
+	font-family: "楷体";
+}
+.pre{
+	color:aqua;
+	font-family: "楷体";
+	font-weight: 200;
+	font-size: 20px;
+}
+.go{
+	color: red;
+	border-radius: 16px;
+	height: 35px;
+	width: 70px;
+	
+}
+#login_box .input_box input{
+	border: 3px solid aqua;
+	background: lemonchiffon;
+	height: 24px;
+	width:200px
+}
+h1{
+	color: lightcoral;
+	font-family: "楷体";
+	font-size: 50px;
+}
